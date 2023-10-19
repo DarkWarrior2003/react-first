@@ -12,7 +12,7 @@ export default function About(props) {
       setmyStyle({
         color: "black",
         backgroundColor: "white",
-        borderRadius: 5
+        borderRadius: 10
       });
       setBtnText("Enable Dark Mode");
     } else {
