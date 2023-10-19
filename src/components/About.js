@@ -4,7 +4,7 @@ export default function About(props) {
   const [myStyle, setmyStyle] = useState({
     color: "black",
     backgroundColor: "white",
-    borderRadius: 5
+    borderRadius: 10
   });
   const [btnText, setBtnText] = useState("Enable Dark Mode");
   const toggleStyle = () => {
@@ -19,7 +19,7 @@ export default function About(props) {
       setmyStyle({
         color: "white",
         backgroundColor: "black",
-        borderRadius: 5
+        borderRadius: 10
       });
       setBtnText("Enable Light Mode");
     }
