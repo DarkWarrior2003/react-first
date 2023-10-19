@@ -19,7 +19,7 @@ export default function Textform(props) {
     console.log("on change");
     setText1(event.target.value);
   };
-  var [text, setText1] = useState("Enter text here 2");
+  var [text, setText1] = useState("");
   return (
     <>
       <h1>{props.heading}</h1>
