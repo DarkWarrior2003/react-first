@@ -4,7 +4,7 @@ export default function navbar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Navbar
+          Text Utils
         </a>
         <button
           className="navbar-toggler"
@@ -61,7 +61,7 @@ export default function navbar() {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
+              <a className="nav-link disabled" aria-disabled="true" href="/">
                 Disabled
               </a>
             </li>
